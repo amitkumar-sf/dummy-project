@@ -5,10 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AgGridModule } from 'ag-grid-angular';
 import { GanttModule } from '@syncfusion/ej2-angular-gantt';
+import { ContainerComponent } from './components/container/container.component';
+import { GridComponent } from './components/grid/grid.component';
+import { GanttComponent } from './components/gantt/gantt.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContainerComponent,
+    GridComponent,
+    GanttComponent
   ],
   imports: [
     BrowserModule,
