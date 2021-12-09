@@ -8,6 +8,7 @@ import { GanttModule } from '@syncfusion/ej2-angular-gantt';
 import { ContainerComponent } from './components/container/container.component';
 import { GridComponent } from './components/grid/grid.component';
 import { GanttComponent } from './components/gantt/gantt.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GanttComponent } from './components/gantt/gantt.component';
     BrowserModule,
     AppRoutingModule,
     AgGridModule.withComponents([]),
-    GanttModule
+    GanttModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
